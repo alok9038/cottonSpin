@@ -39,9 +39,9 @@
                 <div class="menu-title">Home Slider</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Add slider</a>
+                <li> <a href="{{ route('admin.add.slider') }}"><i class="bx bx-right-arrow-alt"></i>Add slider</a>
                 </li>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Manage Slider</a>
+                <li> <a href="{{ route('admin.manage.slider') }}"><i class="bx bx-right-arrow-alt"></i>Manage Slider</a>
                 </li>
             </ul>
         </li>
@@ -52,9 +52,9 @@
                 <div class="menu-title">Testimonials</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Add</a>
+                <li> <a href="{{ route('admin.add.testimonial') }}"><i class="bx bx-right-arrow-alt"></i>Add</a>
                 </li>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Manage</a>
+                <li> <a href="{{ route('admin.manage.testimonial') }}"><i class="bx bx-right-arrow-alt"></i>Manage</a>
                 </li>
             </ul>
         </li>

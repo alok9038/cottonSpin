@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\Admin\TestimonialController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +37,16 @@ Route::prefix('sadmin')->as('admin.')->group(function(){
     Route::post('/status-slider',[SliderController::class,'status'])->name('slider.change.status');
     // manage sliders
     Route::get('/manage-slider',[SliderController::class,'manage'])->name('manage.slider');
+
+    // add slider
+    Route::get('/add-testimonial',[TestimonialController::class,'view'])->name('view.add.testimonial');
+    Route::post('/add-testimonial',[TestimonialController::class,'add'])->name('add.testimonial');
+    // delete slider
+    Route::post('/delete-testimonial',[TestimonialController::class,'delete'])->name('delete.testimonial');
+    // change status
+    Route::post('/status-testimonial',[TestimonialController::class,'status'])->name('testimonial.change.status');
+    // manage sliders
+    Route::get('/manage-testimonial',[TestimonialController::class,'manage'])->name('manage.testimonial');
 });
 
 Route::get('/dashboard', function () {
