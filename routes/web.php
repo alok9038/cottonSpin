@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\TestimonialController;
 use Illuminate\Support\Facades\Route;
@@ -47,6 +48,11 @@ Route::prefix('sadmin')->as('admin.')->group(function(){
     Route::post('/status-testimonial',[TestimonialController::class,'status'])->name('testimonial.change.status');
     // manage sliders
     Route::get('/manage-testimonial',[TestimonialController::class,'manage'])->name('manage.testimonial');
+
+    Route::prefix('blog')->group(function(){
+        Route::get('/add',[BlogController::class,'add'])->name('blog.add');
+        Route::post('/store',[BlogController::class,'store'])->name('store.post');
+    });
 });
 
 Route::get('/dashboard', function () {

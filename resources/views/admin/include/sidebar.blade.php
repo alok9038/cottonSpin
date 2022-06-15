@@ -65,7 +65,7 @@
                 <div class="menu-title">Blogs</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Add</a>
+                <li> <a href="{{ route('admin.blog.add') }}"><i class="bx bx-right-arrow-alt"></i>Add</a>
                 </li>
                 <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Manage</a>
                 </li>
