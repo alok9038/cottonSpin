@@ -12,7 +12,7 @@
     <!--navigation-->
     <ul class="metismenu" id="menu">
         <li>
-            <a href="widgets.html">
+            <a href="{{ route('dashboard') }}">
                 <div class="parent-icon"><i class='bx bxs-dashboard'></i>
                 </div>
                 <div class="menu-title">Dashboard</div>

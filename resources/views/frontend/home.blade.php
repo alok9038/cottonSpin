@@ -7,7 +7,7 @@
             <!-- swiper-slide start -->
             <div class="swiper-slide">
                 <!-- slide-bg -->
-                <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url(assets/images/backgrounds/luca-bravo-ujhKqutt3f0-unsplash.jpg)"></div>
+                <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url(https://omaxcotspin.com/img/Women_Empeworment.webp)"></div>
                 <!-- bg-overlay -->
                 <div class="bg-overlay-black"></div>
 
@@ -41,7 +41,7 @@
             <!-- swiper-slide start -->
             <div class="swiper-slide">
                 <!-- slide-bg -->
-                <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url(assets/images/projects/pexels/woman-in-black-sexy-top-2825034.jpg)"></div>
+                <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url(https://omaxcotspin.com/img/farmers.webp)"></div>
                 <!-- bg-overlay -->
                 <div class="bg-overlay-black"></div>
 
@@ -77,7 +77,7 @@
             <!-- swiper-slide start -->
             <div class="swiper-slide">
                 <!-- slide-bg -->
-                <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url(assets/images/projects/black-bike/josh-nuttall-pIwu5XNvXpk-unsplash.jpg)"></div>
+                <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url({{ asset('slider/sewa.webp') }})"></div>
                 <!-- bg-overlay -->
                 <div class="bg-overlay-black"></div>
 
@@ -136,7 +136,7 @@
     <!-- home slider end -->
 
     <!-- about us start -->
-    <section id="down" class="pos-rel section-bg-dark-2">
+    {{-- <section id="down" class="pos-rel section-bg-dark-2">
         <!-- pos-rel start -->
         <div class="pos-rel padding-top-bottom-120">
             <!-- flex-container start -->
@@ -261,7 +261,7 @@
             <!-- js-infinite-slider end -->
         </div>
         <!-- pos-rel end -->
-    </section>
+    </section> --}}
     <!-- about us end -->
 
     <!-- portfolio start -->
@@ -282,13 +282,13 @@
                         <span class="flip-btn text-color-black" data-text="Everything">Everything</span>
                     </button>
                 <button class="list__item js-filter-button anim-fade tr-delay-01 js-pointer-small" data-filter=".marketing">
-                        <span class="flip-btn text-color-black" data-text="Marketing">Marketing</span>
+                        <span class="flip-btn text-color-black" data-text="Cotton">Cotton</span>
                     </button>
                 <button class="list__item js-filter-button anim-fade tr-delay-02 js-pointer-small" data-filter=".photoshoot">
-                        <span class="flip-btn text-color-black" data-text="Photoshoot">Photoshoot</span>
+                        <span class="flip-btn text-color-black" data-text="Products">Products</span>
                     </button>
                 <button class="list__item js-filter-button anim-fade tr-delay-03 js-pointer-small" data-filter=".branding">
-                        <span class="flip-btn text-color-black" data-text="Branding">Branding</span>
+                        <span class="flip-btn text-color-black" data-text="Fabric">Fabric</span>
                     </button>
             </div>
             <!-- filter-buttons end -->
@@ -304,7 +304,7 @@
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item branding">
                     <a href="project_beauty-lab.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/beauty-lab/beauty-beauty-product-cosmetics-makeup-2845213.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p1.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
@@ -320,13 +320,13 @@
 
                 <!-- grid-item start -->
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-                    <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+                    <a href="#" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/sneakers/person-holding-a-shoes-3194608.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p2.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
-                                    <span class="subhead-xxs text-color-red anim-slide">Marketing</span>
+                                    <span class="subhead-xxs text-color-red anim-slide">Cotton</span>
                             </span>
                             <h3 class="hidden-box">
                                 <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Sneakers</span>
@@ -338,13 +338,13 @@
 
                 <!-- grid-item start -->
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-                    <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+                    <a href="#" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/knit-cap/man-wears-orange-knit-cap-and-shirt-2802601.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p3.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
-                                    <span class="subhead-xxs text-color-red anim-slide">Marketing</span>
+                                    <span class="subhead-xxs text-color-red anim-slide">Cotton</span>
                             </span>
                             <h3 class="hidden-box">
                                 <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Knit cap</span>
@@ -356,9 +356,9 @@
 
                 <!-- grid-item start -->
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-                    <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+                    <a href="#" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/pexels/woman-in-black-sexy-top-2825034.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p4.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
@@ -374,13 +374,13 @@
 
                 <!-- grid-item start -->
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-                    <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+                    <a href="#" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/drone/quadcopter-on-wooden-surface-1601217.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p5.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
-                                    <span class="subhead-xxs text-color-red anim-slide">Marketing</span>
+                                    <span class="subhead-xxs text-color-red anim-slide">Cotton</span>
                             </span>
                             <h3 class="hidden-box">
                                 <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Drone</span>
@@ -394,11 +394,11 @@
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
                     <a href="project_blue-ridge.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/blue-ridge/flat-lay-photography-of-several-product-bottles-on-withered-1667071.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p6.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
-                                    <span class="subhead-xxs text-color-red anim-slide">Marketing</span>
+                                    <span class="subhead-xxs text-color-red anim-slide">Cotton</span>
                             </span>
                             <h3 class="hidden-box">
                                 <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Blue ridge</span>
@@ -410,9 +410,9 @@
 
                 <!-- grid-item start -->
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-                    <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+                    <a href="#" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/hoop-earrings/woman-with-gold-colored-hoop-earrings-2420555.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p7.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
@@ -428,9 +428,9 @@
 
                 <!-- grid-item start -->
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-                    <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+                    <a href="#" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/black-eyes/woman-in-black-tube-top-beside-woman-in-white-off-shoulder-3823424-2.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p8.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
@@ -446,9 +446,9 @@
 
                 <!-- grid-item start -->
                 <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item branding">
-                    <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+                    <a href="#" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
                         <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-                            <img class="anim-img-scale__inner" src="assets/images/projects/the-ordinary/the-ordinary-product-line-3685530.jpg" alt="project">
+                            <img class="anim-img-scale__inner" src="{{ asset('product/p9.jpg') }}" alt="project">
                         </div>
                         <div class="margin-top-10 js-scrollanim">
                             <span class="hidden-box d-block">
@@ -468,6 +468,11 @@
     </section>
     <!-- portfolio end -->
 
+    <style>
+        .hover-box{
+            align-items: center
+        }
+    </style>
     <!-- team start -->
     <section class="pos-rel section-bg-dark-2">
         <!-- pos-rel start -->
@@ -475,7 +480,7 @@
             <!-- title start -->
             <h2 class="headline-xxl text-center js-scrollanim hidden-box">
                 <span class="anim-slide">
-                        Our <span class="text-color-red">Creative</span> Team
+                        Gallery
                 </span>
             </h2>
             <!-- title end -->
@@ -483,239 +488,78 @@
             <!-- js-3-view-slider start -->
             <div class="js-3-view-slider padding-top-bottom-90 hidden-box pos-rel">
                 <!-- swiper-wrapper start -->
-                <div class="swiper-wrapper js-slider-scroll-anim">
+                <div class="swiper-wrapper js-slider-scroll-anim" style="display: flex; justify-content:center; align-items:center">
                     <!-- swiper-slide start -->
                     <div class="swiper-slide">
                         <!-- anim-img-scale start -->
                         <div class="anim-img-scale hover-box">
-                            <img class="anim-img-scale__inner" src="assets/images/team/team_slider/red-air-jordan-baseball-cap-3452649.jpg" alt="Jason Hardeman">
-
-                            <!-- social btns start -->
-                            <ul class="list pos-abs pos-left-top">
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-01">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-02">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-03">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-04">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- social btns end -->
+                            <img class="anim-img-scale__inner" style="border-radius: 15px" src="{{ asset('gallery/g1.jpg') }}" alt="Jason Hardeman">
                         </div>
                         <!-- anim-img-scale end -->
 
                         <!-- content start -->
                         <div class="margin-top-20 margin-left-20">
-                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Jason Hardeman">Jason Hardeman</h4><br>
-                            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Creative director">Creative director</p>
+                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="title">title</h4><br>
+                            {{-- <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Creative director">Creative director</p> --}}
                         </div>
                         <!-- content end -->
                     </div>
-                    <!-- swiper-slide end -->
-
-                    <!-- swiper-slide start -->
                     <div class="swiper-slide">
                         <!-- anim-img-scale start -->
                         <div class="anim-img-scale hover-box">
-                            <img class="anim-img-scale__inner" src="assets/images/team/team_slider/woman-wearing-eyeglasses-on-brown-wooden-plank-1845210.jpg" alt="Amanda Bryan">
-
-                            <!-- social btns start -->
-                            <ul class="list pos-abs pos-left-top">
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-01">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-02">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-03">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-04">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- social btns end -->
+                            <img class="anim-img-scale__inner" style="border-radius: 15px" src="{{ asset('gallery/g2.jpg') }}" alt="Jason Hardeman">
                         </div>
                         <!-- anim-img-scale end -->
 
                         <!-- content start -->
                         <div class="margin-top-20 margin-left-20">
-                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Amanda Bryan">Amanda Bryan</h4><br>
-                            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Ui/UX designer">Ui/UX designer</p>
+                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="title">title</h4><br>
+                            {{-- <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Creative director">Creative director</p> --}}
                         </div>
                         <!-- content end -->
                     </div>
-                    <!-- swiper-slide end -->
-
-                    <!-- swiper-slide start -->
                     <div class="swiper-slide">
                         <!-- anim-img-scale start -->
                         <div class="anim-img-scale hover-box">
-                            <img class="anim-img-scale__inner" src="assets/images/team/team_slider/woman-posing-for-photo-shoot-1689731.jpg" alt="Sharon Arney">
-
-                            <!-- social btns start -->
-                            <ul class="list pos-abs pos-left-top">
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-01">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-02">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-03">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-04">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- social btns end -->
+                            <img class="anim-img-scale__inner" style="border-radius: 15px" src="{{ asset('gallery/g3.jpg') }}" alt="Jason Hardeman">
                         </div>
                         <!-- anim-img-scale end -->
 
                         <!-- content start -->
                         <div class="margin-top-20 margin-left-20">
-                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Sharon Arney">Sharon Arney</h4><br>
-                            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Project manager">Project manager</p>
+                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="title">title</h4><br>
+                            {{-- <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Creative director">Creative director</p> --}}
                         </div>
                         <!-- content end -->
                     </div>
-                    <!-- swiper-slide end -->
-
-                    <!-- swiper-slide start -->
                     <div class="swiper-slide">
                         <!-- anim-img-scale start -->
                         <div class="anim-img-scale hover-box">
-                            <img class="anim-img-scale__inner" src="assets/images/team/team_slider/woman-wearing-black-tank-top-sitting-on-gray-stainless-steel-1850178.jpg" alt="Alyse Quintero">
-
-                            <!-- social btns start -->
-                            <ul class="list pos-abs pos-left-top">
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-01">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-02">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-03">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-04">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- social btns end -->
+                            <img class="anim-img-scale__inner" style="border-radius: 15px" src="{{ asset('gallery/g4.jpg') }}" alt="Jason Hardeman">
                         </div>
                         <!-- anim-img-scale end -->
 
                         <!-- content start -->
                         <div class="margin-top-20 margin-left-20">
-                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Alyse Quintero">Alyse Quintero</h4><br>
-                            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Front-end developer">Front-end developer</p>
+                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="title">title</h4><br>
+                            {{-- <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Creative director">Creative director</p> --}}
                         </div>
                         <!-- content end -->
                     </div>
-                    <!-- swiper-slide end -->
 
                     <!-- swiper-slide start -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" style="display: flex; justify-content:center; align-items:center">
                         <!-- anim-img-scale start -->
-                        <div class="anim-img-scale hover-box">
-                            <img class="anim-img-scale__inner" src="assets/images/team/team_slider/photo-of-woman-leaning-on-wall-2936815.jpg" alt="Ashley Keller">
+                        <div class="anim-img-scale hover-box" style="border-radius: 50%; height: 100px; width:100px; background-color:rgb(255, 255, 255); display: flex; justify-content:center;">
+                            {{-- <img class="anim-img-scale__inner" src="assets/images/team/team_slider/photo-of-woman-leaning-on-wall-2936815.jpg" alt="Ashley Keller"> --}}
+                            <a href="{{ route('gallery') }}">
+                                <div style="height: 50px; width:50px; background-color:white">
+                                    <img src="{{ asset('arrow.png') }}" alt="">
+                                </div>
+                            </a>
 
-                            <!-- social btns start -->
-                            <ul class="list pos-abs pos-left-top">
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-01">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-02">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-03">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                                    </div>
-                                </li>
-                                <li class="list__item hidden-box">
-                                    <div class="hover-slide tr-delay-04">
-                                        <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- social btns end -->
                         </div>
                         <!-- anim-img-scale end -->
-
-                        <!-- content start -->
-                        <div class="margin-top-20 margin-left-20">
-                            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Ashley Keller">Ashley Keller</h4><br>
-                            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Back-end developer">Back-end developer</p>
-                        </div>
-                        <!-- content end -->
                     </div>
                     <!-- swiper-slide end -->
                 </div>
@@ -754,7 +598,7 @@
                 <h2 class="headline-l js-scrollanim">
                     <span class="hidden-box d-block">
                             <span class="anim-slide">
-                                <span class="text-color-red">Fine Folks</span>
+                                <span class="text-color-red">Our Clients</span>
                     </span>
                     </span>
                     <span class="hidden-box d-block">
@@ -771,8 +615,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/balancha.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/balancha-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo1.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo1.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -780,8 +624,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/jorgo.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/jorgo-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo2.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo2.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -789,8 +633,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/judoboy.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/judoboy-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo3.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo3.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -798,8 +642,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/kizil-jindi.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/kizil-jindi-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo4.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo4.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -807,8 +651,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/meyman.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/meyman-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo5.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo5.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -816,8 +660,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/olchobay.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/olchobay-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo6.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo6.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -825,8 +669,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/tamaktan.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/tamaktan-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo7.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo7.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -834,8 +678,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/chayhana.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/chayhana-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo11.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo11.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -843,8 +687,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/dongolok.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/dongolok-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo12.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo12.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -852,8 +696,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/eptep-septep.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/eptep-septep-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo13.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo13.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -861,8 +705,8 @@
                     <!-- clients-lines__column start -->
                     <div class="clients-lines__column">
                         <div class="clients-lines__inner hover-box pos-rel">
-                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="assets/images/clients/guldoyjan.png" alt="clients logo">
-                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="assets/images/clients/guldoyjan-red.png" alt="clients logo">
+                            <img class="client-logo client-hover-out pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo8.webp" alt="clients logo">
+                            <img class="client-logo client-hover-in pos-abs pos-center-center" src="https://omaxcotspin.com/img/logos/client-logo8.webp" alt="clients logo">
                         </div>
                     </div>
                     <!-- clients-lines__column end -->
@@ -1025,10 +869,10 @@
     <!-- testimonials end -->
 
     <!-- video content start -->
-    <div class="pos-rel bg-img-cover height-100vh" style="background-image:url(assets/images/projects/neon-lights/woman-wearing-beige-and-gray-hoodie-portrait-2272855.jpg)">
+    <div class="pos-rel bg-img-cover height-100vh" style="background-image:url({{ asset('thumbnail.png') }})">
         <div class="bg-overlay-black"></div>
         <div class="pos-rel height-100perc">
-            <a href="https://www.youtube.com/watch?v=hitNXU4PoRU" class="play-button js-popup-youtube js-pointer-large">
+            <a href="https://omaxcotspin.com/videos/compressed/Story_of_Omax.mp4" class="play-button js-popup-youtube js-pointer-large">
                     <span class="play-button__inner"></span>
                 </a>
         </div>
@@ -1052,10 +896,10 @@
                 <!-- blog-entry start -->
                 <article class="flex-container flex-align-center padding-top-60">
                     <div class="six-columns padding-top-30">
-                        <a href="post_dont-panic.html" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
+                        <a href="#" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
                             <div class="anim-img-reveal__hidden">
                                 <div class="anim-img-reveal__scale">
-                                    <img class="img-hover-scale" src="assets/images/posts/decor-and-furniture/two-vases-on-table-842950.jpg" alt="Post">
+                                    <img class="img-hover-scale" src="{{ asset('product/p9.jpg') }}" alt="Post">
                                 </div>
                             </div>
                         </a>
@@ -1073,13 +917,13 @@
                                     <a href="#" class="subhead-xxs text-color-888888 text-hover-to-red js-pointer-small">2020, March 2</a>
                                 </li>
                             </ul>
-                            <a href="post_dont-panic.html" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
+                            <a href="#" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
                                 <h3 class="headline-xxxs text-color-black">
                                     Home decor and furniture<br> stores near me
                                 </h3>
                                 <p class="body-text-xs margin-top-20 text-color-black">Plaid retro migas venmo lo-fi ethical artisan fingerstache seitan you probably haven't heard of them fam keffiyeh...</p>
                             </a>
-                            <a href="post_dont-panic.html" class="skew-btn js-pointer-large js-animsition-link">
+                            <a href="#" class="skew-btn js-pointer-large js-animsition-link">
                                     <span class="skew-btn__box">
                                         <span class="skew-btn__content text-color-black">Continue reading</span>
                                         <span class="skew-btn__arrow black"></span>
@@ -1123,7 +967,7 @@
                         <a href="post_good-morning.html" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
                             <div class="anim-img-reveal__hidden">
                                 <div class="anim-img-reveal__scale">
-                                    <img class="img-hover-scale" src="assets/images/posts/good-morning/round-white-ceramic-saucer-and-coffee-cup-2638019.jpg" alt="Post">
+                                    <img class="img-hover-scale" src="{{ asset('product/p3.jpg') }}" alt="Post">
                                 </div>
                             </div>
                         </a>
@@ -1134,10 +978,10 @@
                 <!-- blog-entry start -->
                 <article class="flex-container flex-align-center padding-top-60">
                     <div class="six-columns padding-top-30">
-                        <a href="post_dont-panic.html" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
+                        <a href="#" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
                             <div class="anim-img-reveal__hidden">
                                 <div class="anim-img-reveal__scale">
-                                    <img class="img-hover-scale" src="assets/images/posts/home-studio/pexels-3388901.jpg" alt="Post">
+                                    <img class="img-hover-scale" src="{{ asset('product/p7.jpg') }}" alt="Post">
                                 </div>
                             </div>
                         </a>
@@ -1155,13 +999,13 @@
                                     <a href="#" class="subhead-xxs text-color-888888 text-hover-to-red js-pointer-small">2020, April 7</a>
                                 </li>
                             </ul>
-                            <a href="post_dont-panic.html" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
+                            <a href="#" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
                                 <h3 class="headline-xxxs text-color-black">
                                     Home recording studio<br> interior design
                                 </h3>
                                 <p class="body-text-xs margin-top-20 text-color-black">Plaid retro migas venmo lo-fi ethical artisan fingerstache seitan you probably haven't heard of them fam keffiyeh...</p>
                             </a>
-                            <a href="post_dont-panic.html" class="skew-btn js-pointer-large js-animsition-link">
+                            <a href="#" class="skew-btn js-pointer-large js-animsition-link">
                                     <span class="skew-btn__box">
                                         <span class="skew-btn__content text-color-black">Continue reading</span>
                                         <span class="skew-btn__arrow black"></span>
@@ -1177,328 +1021,5 @@
         <!-- pos-rel end -->
     </section>
     <!-- latest news end -->
-
-    <!-- pricing start -->
-    <section class="pos-rel section-bg-dark-1">
-        <!-- pos-rel start -->
-        <div class="pos-rel padding-top-bottom-120">
-            <!-- title start -->
-            <h2 class="headline-xxl text-center hidden-box js-scrollanim">
-                <span class="anim-slide">
-                        Our <span class="text-color-red">Pricing</span>
-                </span>
-            </h2>
-            <!-- title end -->
-
-            <!-- flex-container start -->
-            <div class="container small flex-container flex-justify-center padding-top-30">
-                <!-- column start -->
-                <div class="four-columns column-50-100 padding-top-60">
-                    <div class="column-l-r-margin-10 price-top-offset content-bg-dark-2 border-radius-10px hidden-box">
-                        <div class="text-center content-bg-red">
-                            <h3 class="subhead-m padding-top-bottom-20">Basic</h3>
-                        </div>
-                        <h4 class="text-center padding-top-bottom-50">
-                            <span class="headline-l">$100</span><br>
-                            <span class="subhead-xs">Per month</span>
-                        </h4>
-                        <!-- accordion start -->
-                        <div class="accordion js-accordion margin-left-right-20">
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Marketing</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item x opacity-05">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Branding</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item x opacity-05">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Photoshoot</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item x opacity-05">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Web development</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item x opacity-05">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                        </div>
-                        <!-- accordion end -->
-                        <div class="padding-top-bottom-50 text-center">
-                            <a href="#" class="ellipse-btn js-pointer-large">sign up</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- column end -->
-
-                <!-- column start -->
-                <div class="four-columns column-50-100 padding-top-60">
-                    <div class="column-l-r-margin-10 content-bg-dark-2 border-radius-10px hidden-box">
-                        <div class="text-center content-bg-red">
-                            <h3 class="subhead-m padding-top-bottom-40">Standard</h3>
-                        </div>
-                        <h4 class="text-center padding-top-bottom-50">
-                            <span class="headline-l">$120</span><br>
-                            <span class="subhead-xs">Per month</span>
-                        </h4>
-                        <!-- accordion start -->
-                        <div class="accordion js-accordion margin-left-right-20">
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Marketing</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Branding</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Photoshoot</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Web development</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item x opacity-05">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                        </div>
-                        <!-- accordion end -->
-                        <div class="padding-top-bottom-50 text-center">
-                            <a href="#" class="ellipse-btn ellipse-btn_red js-pointer-large">sign up</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- column end -->
-
-                <!-- column start -->
-                <div class="four-columns column-50-100 padding-top-60">
-                    <div class="column-l-r-margin-10 price-top-offset content-bg-dark-2 border-radius-10px hidden-box">
-                        <div class="text-center content-bg-red">
-                            <h3 class="subhead-m padding-top-bottom-20">Extended</h3>
-                        </div>
-                        <h4 class="text-center padding-top-bottom-50">
-                            <span class="headline-l">$150</span><br>
-                            <span class="subhead-xs">Per month</span>
-                        </h4>
-                        <!-- accordion start -->
-                        <div class="accordion js-accordion margin-left-right-20">
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Marketing</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item check red">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Branding</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item check red">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Photoshoot</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item check red">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                            <!-- accordion__tab start -->
-                            <div class="accordion__tab js-accordion-tab">
-                                <div class="accordion__btn js-accordion-btn js-pointer-large">
-                                    <h6 class="accordion__btn-title headline-xxxxs">Web development</h6>
-                                </div>
-                                <div class="accordion__content js-accordion-content">
-                                    <!-- list start -->
-                                    <ul class="list list_center text-color-dadada subhead-xxs">
-                                        <li class="list__item check red">Copper mug</li>
-                                        <li class="list__item check red">Vexillologist +1</li>
-                                        <li class="list__item check red">Prism iPhone</li>
-                                        <li class="list__item check red">Hella quinoa</li>
-                                        <li class="list__item check red">Blog af umami</li>
-                                        <li class="list__item check red">Vinyl snackwave</li>
-                                        <li class="list__item check red">XOXO drinking</li>
-                                    </ul>
-                                    <!-- list end -->
-                                </div>
-                            </div>
-                            <!-- accordion__tab end -->
-                        </div>
-                        <!-- accordion end -->
-                        <div class="padding-top-bottom-50 text-center">
-                            <a href="#" class="ellipse-btn js-pointer-large">sign up</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- column end -->
-            </div>
-            <!-- flex-container end -->
-        </div>
-        <!-- pos-rel end -->
-    </section>
-    <!-- pricing end -->
 {{-- </main> --}}
 @endsection
